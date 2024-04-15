@@ -1,0 +1,345 @@
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: #565656;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+    
+    }
+    
+    header {background-color: rgba(61, 61, 61, 0.796);
+      background-image:url(public/spanish_restaurant2.jpg);
+      background-size: cover;
+      background-position: center;
+      height:800px;
+      margin: 0px;
+      padding:50px;
+    
+    }
+    nav {
+      color:#f4c639;
+      float:right;
+      font-weight:900;
+    }
+    
+    
+    main {
+      width:100%;
+      margin:0;
+    
+    
+    }
+    
+    ul {
+    text-decoration: none;
+    list-style-type: none;
+    }
+    
+    li {
+      display:inline-block;
+      padding:20px;
+      font-size:25px;
+    }
+    
+    .navlogo {
+      float: left;
+    }
+    
+    
+    h1{
+      font-size: 140px;
+      font-weight:180;
+      padding: 0px;
+      margin: 0;
+      line-height: 90px;
+      color:rgb(255, 255, 255);
+      display: inline-block;
+      font-family: 'Yellowtail', cursive;
+    
+    }
+    
+    .h1red {
+      color:#bd0404;
+      display: inline-block;
+      padding-left:40px;
+      padding-top: 40px;
+      padding-bottom: 30px;
+    
+    }
+    
+    h3 {
+      font-family: 'Yellowtail', cursive;
+      font-weight: 300;
+      color:#f4c639;
+      font-size: 48px;
+      margin-top: 0;
+      margin-bottom: 0;
+      line-height: 48px;
+    
+    }
+    
+    .headerText {
+    
+      width:800px;
+      padding-top: 50px;
+      text-align: center;
+      margin:0 auto;
+      margin-top:300px;
+      background-color: rgba(197, 197, 197, 0.48);
+    
+    
+    
+    
+    }
+    
+    p {
+      font-size: 14px;
+      line-height: 24px;
+    }
+    
+    strong {
+    color:#a30000;
+    padding-bottom:10px;
+    padding-top: 0px;
+    font-size: 21px;
+    display: block;
+    
+    }
+    
+    
+    .navParagraph{
+      padding: 20px;
+      margin:0px;
+      font-size:30px;
+      color:#ffffff;
+
+    }
+    
+    
+    
+    
+    .aboutContainer {
+      width: 900px;
+      height: 400px;
+      padding-top: 170px;
+      margin: 0 auto;
+      padding-bottom: 100px;
+    }
+    
+    .aboutImg {
+      float: left;
+      width:450px;
+      border-image: url(public/about_image.jpeg);
+    
+    }
+    
+    .aboutBio {
+      float: right;
+      width:400px;
+      padding-left:50px;
+    }
+    
+    
+    
+    .menuBeginning {
+      height: 450px;
+      color: rgba(0, 0, 0, 0.213);
+      background-image: url(public/menuphoto.jpg);
+      background-size: cover;
+      text-align: center;
+      padding-top: 150px;
+      padding-bottom: 200px;
+      background-position: center;
+    
+    
+    
+    }
+    
+    
+    .exploreOur{
+      color:white;
+    }
+    
+    .altH3{
+      font-family: 'Montserrat', sans-serif;
+      letter-spacing: 20px;
+      color:#f4c639;
+      font-weight: 1000;
+      font-size: 40px;
+      padding-left: 20px;
+    
+    }
+    
+    
+    
+    .menuIconsContainer {
+      width: 900px;
+      margin: 0 auto;
+    }
+    
+    .menuIcons {
+    width: 200px;
+    float: left;
+    padding: 40px;
+ 
+    }
+    
+    .menuIconDescription {
+      color:white;
+      font-weight:10px;
+      font-size: 24px;
+
+      
+    
+    }
+    
+    
+    
+    
+    
+    
+    .starters, .Entrees, .Sweets{
+    
+      width: 1000px;
+      height:600px;
+      margin: 0 auto;
+      margin-top: 40px;
+      border-bottom: 2px solid #f3f3f3;
+    
+    }
+    
+    .foodItemContainer{
+    width:400px;
+    display: inline-block;
+    margin:30px;
+    
+    
+    
+    }
+    
+    .foodItemText {
+      width: 400px;
+      display: inline;
+    
+    }
+    .foodItemImg {
+      width: 160px;
+      height: 160px;
+      display: inline-block;
+      float:left;
+      padding-bottom: 20px;
+      padding-right: 20px;
+    }
+    
+    .menuHeadings{
+      font-size: 60px;
+      padding-top:20px;
+      padding-bottom: 10px;
+    }
+    
+    .price {
+      font-weight: 600;
+      font-size: 18px;
+      display: inline;
+    }
+    
+    footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    height: 80px;
+    
+    }
+    
+    .contact {
+      text-align: center;
+      background-image:url(public/Contact2.jpg);
+        background-size: cover;
+        color: rgb(255, 255, 255);
+        font-size: 18px;
+        font-family: 'Montserrat', sans-serif;
+        border-top: 60px solid #a30000;
+        height: 450px;
+    
+    
+    }
+    
+    
+    .smicon {
+    float: center;
+      display: inline-block;
+      padding-left: 15px;
+      padding-bottom: 20px;
+    
+    }
+    
+    .h3white {
+      color: white;
+      letter-spacing: 4px;
+      padding-top: 50px;
+      padding-bottom: 70px;
+    }
+    
+    html {
+    scroll-behavior: smooth;
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: #f4c639;
+    }
+    
+    nav a:hover {
+      color: white;
+      background-color:#a30000;
+      padding: 8px 13px;
+    
+    }
+    
+    .hours {
+      float: left;
+      display: inline-block;
+      padding-left: 170px;
+      padding-right: 70px;
+      text-align: center;
+      display: inline;;
+    
+    }
+    
+    .address {
+      float: left;
+      display: inline-block;
+      padding-right: 110px;
+      padding-left: 70px;
+      text-align: center;
+
+    
+    }
+    
+    .phone {
+    float: left;
+    padding-right: 150px;
+    padding-left: 70px;
+    display: inline-block;
+    text-align: center;
+    
+    }
+    
+    h4 {
+      color: #f4c639;
+    }
+    
+    
+    .topbutton {
+      position: fixed;
+      width:75px;
+      height:75px;
+      bottom: 40px;
+      right:50px;
+      text-decoration: none;
+      text-align: center;
+      line-height: 50px;
+    }
+    
